@@ -1,0 +1,34 @@
+1 spaudziam WINDOWS klavisa ir rasom CMD
+2 Atsiras Command Prompt, ant jo su desiniu spaudziam ir pasirenkam RUN AS ADMINISTRATOR
+3 Atsidariusiame lange irasom: ssh-keygen ir spaudziam enter
+4 Uzduos kelis klausimus, bet visada spausim ENTER
+
+5 kai sugeneruos ssh rakta, spausim WINDOWS mygtuka rasysim Folder
+6 atsiras Folder Options spaudziam ant jo
+7 atsidarys lenetele, joje matysite uzdeti varnele Show Hidden Files ( https://support.microsoft.com/en-us/windows/show-hidden-files-0320fe58-0117-fd59-6851-9b7f9840fdb2?fbclid=IwAR31aUBmQhXkJgxtE1M9g-5qhI2dRnxVTrBvt7viB0a4l8odAExr-nfYTfg ) 
+
+8 atsidarome MY COMPUTER einam i C diska, tada USERS, tada matysite .ssh aplanka
+9 jau .ssh aplanke matysite 2 failus id_rsa ir id_rsa.pub
+10 spaudziam su desiniu ant id_rsa.pub su desiniu ir renkames Open With Notepad
+11 tame faile matysite ilga skaiciu ir raidziu jungini, tai jusu raktas
+12 sita derini naudosim GITHUB
+
+12.1 https://gitforwindows.org/ parsisiunciam gitbash, jo reikes kad galtume naudotis GIT funkcijomis
+
+13 einam i GITHUB (google search)
+14 uzsiregistruojam
+15 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account pradedam nuo 2 zingsnio
+16 6 zingsnyje idesit savo radziu ir skaiciu kombinacija is id_rsa.pub
+
+17 susikursite nauja repozitorija, bus kaireje Repositories ir NEW mygtukas
+18 kai susikursit sekite zingsnius esancius jau tame lange
+
+git komandos:
+git add . 
+git commit -m "jusu komentaras, kas buvo padaryta ar patvarkyta"
+git push 
+
+apie git (TRUMPAI): https://www.youtube.com/watch?v=2ReR1YJrNOM&ab_channel=ProgrammingwithMosh
+
+
+mac useriam's https://medium.com/@aklson_DS/how-to-properly-setup-your-github-repository-mac-version-3a8047b899e5
